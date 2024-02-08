@@ -1,6 +1,6 @@
 ## Example Video
 
-[Texture mappinging]( https://github.com/tarekakrout2021/Textures/blob/master/texture_mapping.mp4)
+[Texture mappinging]( https://github.com/tarekakrout2021/Textures/blob/master/output.mp4)
 
 ## Requirements
 
