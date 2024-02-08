@@ -31,11 +31,6 @@ in vec3 texCoord;
 // main function gets executed for every pixel
 void main()
 {
-  //this colors all fragments (pixels) in the same color (RGBA)
-  // if (texture(textureCanv, texCoord).x == 0.0 && texture(textureCanv, texCoord).y == 0.0){
-  //   fragColor= texture(textureImg, texCoord) ;
-  // } 
-  // else{
   float x = texCoord.x; 
   float y = texCoord.y; 
   float z = texCoord.z; 

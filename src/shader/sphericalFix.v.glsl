@@ -37,8 +37,5 @@ void main()
 {
   //gl_Position = vec4(0., 0., 0., 1.0);
   gl_Position = projectionMatrix * modelViewMatrix*vec4(position,1.0);
-  // float u =  1.0 -(PI + atan(position.z,position.x))/(2.0*PI);
-  // float v = 1.0 - atan(sqrt(position.x*position.x+position.z*position.z),position.y)/PI;
-  // texCoord = vec2(u,v);
   texCoord = position; 
 }

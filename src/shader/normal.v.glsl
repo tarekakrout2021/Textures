@@ -40,7 +40,6 @@ out vec3 vNormal;
 // main function gets executed for every vertex
 void main()
 {
-  //gl_Position = vec4(0., 0., 0., 1.0);
   texCoord = uv; 
   vPos = position;  
   vNormal = normalize(vec3(transpose(inverse(modelMatrix)) *vec4(normal,1.0))); 

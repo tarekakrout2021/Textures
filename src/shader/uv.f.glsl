@@ -37,11 +37,7 @@ in vec3 vNormal;
 // main function gets executed for every pixel
 void main()
 {
-  //this colors all fragments (pixels) in the same color (RGBA)
-  // if (texture(textureCanv, texCoord).x == 0.0 && texture(textureCanv, texCoord).y == 0.0){
-  //   fragColor= texture(textureImg, texCoord) ;
-  // } 
-  // else{
+
     fragColor= texture(textureCanv, texCoord)+ texture(textureImg, texCoord) ; 
   
 }
